@@ -8,16 +8,19 @@
   display: flex;
   flex-direction: column;
   gap: 4rem;
+  line-height: 2.5em;
 }
 
 /** Elemments */
+
+.publication__title {
+  text-align: left;
+}
 
 .publication__header {
   display: flex;
   align-items: center;
   gap: 0.8rem;
-
-  /*background-color: red;*/
 }
 
 .publication__img {
@@ -25,10 +28,10 @@
 }
 
 .publication__textheader {
-  /*background-color: yellow;*/
+  color: #225ed6;
 }
 
-.post__desc{
+.post__desc {
   margin-top: 2.3rem !important;
 }
 
@@ -36,10 +39,8 @@
   font-size: 1.9rem;
   display: flex;
   flex-direction: column;
-  gap: 4rem;
+  gap: 1.6em;
   justify-content: space-around;
-
-  /*background-color: aqua;*/
 }
 
 .publication__interaction {

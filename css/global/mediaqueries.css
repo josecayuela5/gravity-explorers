@@ -116,4 +116,23 @@
   .footer__subscription-button {
     padding: 1rem 0;
   }
+
+  .publication {
+    padding: 4rem 1rem;
+  }
+}
+
+@media (max-width: 600px) {
+
+  .publication__content {
+    font-size: 2rem;
+  }
+  .post__desc {
+    text-align: center;
+    font-size: 2.2rem;
+  }
+
+  .publication__title {
+    text-align: center;
+  }
 }
