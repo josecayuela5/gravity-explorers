@@ -1,0 +1,18 @@
+.blog-nav{
+}
+
+.blog-nav__list{
+ list-style: none; 
+ display: flex;
+ gap: 5%;
+ margin-bottom: 4rem;
+}
+
+.blog-nav__element:hover{
+  cursor: pointer;
+  color: #225ed6;
+}
+
+.blog-nav__element_active{
+  color: #225ed6
+}

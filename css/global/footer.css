@@ -1,0 +1,129 @@
+/** Block */
+
+.footer {
+  background-color: #707070;
+  padding: 5rem 0;
+  padding-bottom: 3rem;
+  color: #f5f5f5;
+}
+
+/** Elements */
+
+.footer__wrapper {
+  display: flex;
+  flex-direction: column;
+  padding: 0 1rem;
+  margin: auto;
+
+  /*background-color: red;/* /*!Test color*/
+}
+
+/*****************************************/
+
+.footer__main-content {
+  display: flex;
+  margin-bottom: 8rem;
+  justify-content: space-evenly;
+}
+
+.footer__author-img {
+  width: min(20vw, 17rem);
+  grid-row: 1/-1;
+}
+
+.footer__author-about {
+  display: grid;
+  grid-template-rows: repeat(3, auto);
+  grid-template-columns: auto 1fr;
+  align-items: center;
+  column-gap: 1rem;
+  width: min(60%,700px);
+}
+
+.footer__author-link:active {
+  color: #225ed6;
+}
+
+/******************************************/
+
+.footer__subscription {
+  width: min(30%, 300px);
+  align-self: center;
+}
+
+.footer__subscription-form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+
+  margin-top: 1rem;
+}
+
+.footer__subscription-button {
+  padding: 0.3em 0;
+  transition: background-color ease 0.2s;
+  background-color: #225ed6;
+  color: #f5f5f5;
+}
+
+.footer__subscription-button:hover{
+  background-color: #2971ff;
+}
+
+.footer__input {
+  font-family: inherit;
+  font-size: inherit;
+  background-color: transparent;
+  border: solid 1px #f5f5f5;
+  padding: 0.2em 1rem;
+  color: inherit;
+}
+
+.footer__input:focus {
+  outline: none;
+  border-color: #225ed6;
+}
+
+.footer__input:hover {
+  border-color: #225ed6;
+}
+
+/**************************************/
+
+.footer__additional {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 1vw;
+}
+
+.footer__copy {
+  align-self: center;
+}
+
+.footer__upbutton {
+  position: absolute;
+  left: 50%;
+  align-self: center;
+}
+
+.footer__upbutton:hover {
+  cursor: pointer;
+  transform: scale(1.2);
+}
+
+.footer__social {
+  display: flex;
+  min-height: 100%;
+  justify-self: right;
+}
+
+.footer__icon {
+  width: 20px;
+}
+
+.footer__icon:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+}
+
+/** Modifiers */

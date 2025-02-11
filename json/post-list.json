@@ -1,0 +1,20 @@
+[
+  {
+    "postId": 1,
+    "title": "Bienvenidos a Gravity Explorers",
+    "url": "./posts/post1.html",
+    "time": "2025-02-05"
+  },
+  {
+    "postId": 2,
+    "title": "Calistenia para principiantes",
+    "url": "./posts/post2.html",
+    "time": "2025-02-07"
+  },
+  {
+    "postId": 3,
+    "title": "Hábitos saludables",
+    "url": "./posts/post3.html",
+    "time": "2025-02-09"
+  }
+]

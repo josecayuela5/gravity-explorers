@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <!--*Meta etiquetas-->
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="Jose Cayuela" />
+    <meta
+      name="keywords"
+      content="Jose Cayuela, sobre mí, mi historia con la calistenia, entrenamiento personal, Gravity Explorers, fitness, entrenamiento con peso corporal, 
+      vida sana, deporte sin gimnasio, superación personal, blog de calistenia"
+    />
+    <meta
+      name="description"
+      content="Conoce a Jose Cayuela, creador de Gravity Explorers. Descubre mi historia en la calistenia, mis experiencias y mi pasión por el entrenamiento de fuerza. 
+      Acompáñame en este viaje de superación y vida sana."
+    />
+    <meta name="robots" content="index, follow" />
+
+    <!--*Título página-->
+    <title>Gravity Explorers | Sobre mí</title>
+
+    <!--*Importación estilos-->
+
+    <!--*Estilos globales-->
+    <link rel="stylesheet" href="./css/global/reset.css" type="text/css" />
+    <link rel="stylesheet" href="./css/global/layout.css" type="text/css" />
+    <link rel="stylesheet" href="./css/global/page.css" type="text/css" />
+    <link rel="stylesheet" href="./css/global/title.css" type="text/css" />
+    <link rel="stylesheet" href="./css/global/footer.css" type="text/css" />
+    <link rel="stylesheet" href="./css/global/main-nav.css" type="text/css" />
+    <link
+      rel="stylesheet"
+      href="./css/global/content-container.css"
+      type="text/css"
+    />
+    <link rel="stylesheet" href="./css/global/button.css" type="text/css" />
+    <link
+      rel="stylesheet"
+      href="./css/global/main-header.css"
+      type="text/css"
+    />
+
+    <!--*Estilos de bloques-->
+    <link rel="stylesheet" href="./css/link.css" type="text/css" />
+    <link rel="stylesheet" href="./css/about.css" type="text/css" />
+
+    <!--*Media queries-->
+    <link
+      rel="stylesheet"
+      href="./css/global/mediaqueries.css"
+      type="text/css"
+    />
+
+    <!--*Importación icono página-->
+    <link rel="icon" type="image/x-icon" href="./icons/gym.png" />
+
+    <!--*Importación fuentes-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fugaz+One&family=Roboto:ital,wght@0,100..900;1,100..900&family=Sriracha&display=swap"
+      rel="stylesheet"
+    />
+
+    <!--*Importación jQuery CDN-->
+    <script
+      src="https://code.jquery.com/jquery-3.7.1.min.js"
+      integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo="
+      crossorigin="anonymous"
+    ></script>
+    <!--* Importación de jQuery UI-->
+
+    <!--* jQuery UI CSS -->
+    <link rel="stylesheet" href="./assets/jquery-ui.css" />
+
+    <!--* jQuery UI JavaScript -->
+    <script
+      src="https://code.jquery.com/ui/1.14.1/jquery-ui.min.js"
+      integrity="sha256-AlTido85uXPlSyyaZNsjJXeCs07eSv3r43kyCVc8ChI="
+      crossorigin="anonymous"
+    ></script>
+
+    <!--*Importación de código JS: funcionalidades de la página-->
+    <script src="./js/dynamicroute.js" type="text/javascript"></script>
+    <script src="./js/likes.js" type="text/javascript"></script>
+    <script src="./js/backtop.js" type="text/javascript"></script>
+    <script src="./js/changetheme.js" type="text/javascript"></script>
+    <script src="./js/search.js" type="text/javascript"></script>
+  </head>
+
+  <body class="page page_header_disabled" id="JS-page">
+    <!--*Navegación principal -->
+    <nav class="main-nav" id="JS-nav">
+      <div class="main-nav__search">
+        <input id="tags" class="main-nav__input" placeholder="Buscar..." />
+        <img src="./icons/search.svg" class="main-nav__search-icon" alt="" />
+      </div>
+
+      <ul class="main-nav__list">
+        <li class="main-nav__list-element">
+          <a href="./index.html" class="link main-nav__link">INICIO</a>
+        </li>
+        <li class="main-nav__list-element">
+          <a href="./blog.html" class="link main-nav__link">BLOG</a>
+        </li>
+        <li class="main-nav__list-element">
+          <a
+            href="./about.html"
+            class="link main-nav__link main-nav__link_active"
+            >SOBRE MÍ</a
+          >
+        </li>
+        <!--<li class="main-nav__list-element" id="JS-categories">
+          <a href="/html/categories.html" class="link main-nav__link"
+            >CATEGORÍAS</a
+          >
+          <ul class="main-nav__submenu" id="JS-submenu">
+            <li class="main-nav__list-element">
+              <a href="/html/exercices.html" class="link main-nav__link"
+                >EJERCICIOS</a
+              >
+            </li>
+            <li class="main-nav__list-element">
+              <a href="/html/routines.html" class="link main-nav__link"
+                >RUTINAS</a
+              >
+            </li>
+          </ul>
+        </li>
+      --></ul>
+
+      <div class="main-nav__button-container">
+        <img
+          src="./icons/moon.svg"
+          alt="Botón cambio de tema de color"
+          class="main-nav__theme-button"
+          id="JS-theme-button"
+        />
+      </div>
+    </nav>
+
+    <header class="main-header main-header_min">
+      <!--*Texto-->
+      <h1 class="title title_font_one title_size_xm">GRAVITY EXPLORERS</h1>
+    </header>
+
+    <div class="wrapper">
+      <div class="content-container">
+        <!--*Contenido prinipal-->
+        <main>
+          <section class="about">
+            <h2
+              class="title_font_one about__title title_size_m title_color_enabled"
+            >
+              Sobre mí
+            </h2>
+
+            <article class="about__info">
+              <div>
+                <p class="about__info-p">
+                  Soy Jose Cayuela, un atleta apasionado por la calistenia desde
+                  2017. Mi misión es compartir mi experiencia para ayudarte a
+                  llevar una vida más activa y saludable.
+                </p>
+                <p class="about__info-p">
+                  Aquí aprenderás ejercicios efectivos, consejos prácticos y
+                  todo lo que necesitas para incorporar el entrenamiento y un
+                  estilo de vida sano en tu día a día. ¡Vamos a entrenar juntos
+                  y a superarnos cada día más!
+                </p>
+              </div>
+              <img
+                src="./img/userpic.jpg"
+                alt="Administrador del blog"
+                class="about__img"
+              />
+            </article>
+          </section>
+        </main>
+
+        <form class="about__form">
+          <h3 class="title title_font_one title_size_sm title_color_enabled">
+            Escríbeme
+          </h3>
+          <div class="about__form-input-container">
+            <input
+              type="text"
+              name="nombre"
+              placeholder="Nombre"
+              class="about__input-field"
+            />
+            <input
+              type="email"
+              name="email"
+              placeholder="Email"
+              class="about__input-field"
+            />
+          </div>
+          <textarea
+            class="about__input-field about__textarea"
+            name="mensaje"
+            placeholder="Escribe tu mensaje aquí..."
+          ></textarea>
+          <input
+            type="submit"
+            class="button about__button"
+            id="send-comment"
+            value="Enviar"
+          />
+        </form>
+      </div>
+    </div>
+
+    <!--*Footer-->
+    <footer class="footer">
+      <div class="footer__wrapper">
+        <div class="footer__main-content">
+          <!--*Información del autor-->
+          <section class="footer__author-about">
+            <img
+              src="./img/userpic.jpg"
+              class="footer__author-img"
+              alt="Adminsitrador del blog"
+            />
+            <h3 class="title">Sobre mí</h3>
+            <p>
+              Soy Jose Cayuela, un atleta apasionado por la calistenia desde
+              2017. Mi misión es compartir mi experiencia para ayudarte a llevar
+              una vida más activa y saludable.
+            </p>
+            <a href="./about.html" class="link link_decoration_enabled"
+              >Leer más</a
+            >
+          </section>
+
+          <!--*Formulario de suscripción al blog-->
+          <section class="footer__subscription">
+            <h3 class="title footer__section-title">Suscríbete al blog</h3>
+            <form class="footer__subscription-form">
+              <label for="usermail">Email *</label>
+              <input
+                type="email"
+                id="usermail"
+                name="usermail"
+                class="input footer__input"
+              />
+              <input
+                type="submit"
+                class="button footer__subscription-button"
+                id="send-email"
+                value="Unirse"
+              />
+            </form>
+          </section>
+        </div>
+
+        <!--*Información adicional-->
+        <div class="footer__additional">
+          <span class="footer__copy"
+            >&copy 2025 Gravity Explorers. All rights reserved.</span
+          >
+          <!--*Copyright-->
+          <img
+            src="./icons/up.svg"
+            class="footer__upbutton"
+            id="JS-upbutton"
+            alt="Botón para ir al prinicipio"
+          />
+          <!--*Botón para subir arriba-->
+
+          <!--*Redes sociales-->
+          <div class="footer__social">
+            <a href="https://www.instagram.com/"
+              ><img
+                src="./icons/instragram.svg"
+                class="footer__icon"
+                alt="Instagram"
+            /></a>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

@@ -1,0 +1,45 @@
+/** Block */
+
+.title {
+  
+}
+
+/** Elemments */
+
+/** Modifiers */
+
+.title_font_sriracha {
+  font-family: "Sriracha", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.title_font_one {
+  font-family: "Fugaz One", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.title_size_l{
+  font-size: 7rem;
+}
+
+.title_size_m{
+  font-size: 3.5rem;
+}
+
+.title_size_xm{
+  font-size: 5rem;
+}
+
+.title_size_sm{
+  font-size: 3rem;
+}
+
+.title_size_s{
+  font-size: 2.5rem;
+}
+
+.title_color_enabled{
+  color: #225ed6;
+}

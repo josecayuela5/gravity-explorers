@@ -1,0 +1,26 @@
+/** Block */
+
+.blog-container{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(auto-fit, auto);
+  gap:2rem;
+  margin-bottom: 4rem;
+
+}
+
+/** Elements */
+
+.blog-container__post{
+  margin: 0;
+  min-width: 0;
+  min-height: 0;
+  flex-direction: column;
+}
+  
+
+/** Modifiers */
+
+.blog-container__post_2row{
+  grid-row: span 2;
+}

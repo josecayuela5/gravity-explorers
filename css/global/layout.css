@@ -1,0 +1,48 @@
+/** Layout general del website */
+
+.page {
+  display: grid;
+  grid-template-columns: auto 1fr auto;
+  grid-template-rows: /*6rem*/ 60rem auto max-content;
+  height: 100vh;
+  grid-template-areas:
+    /*" navbar navbar navbar"*/
+    "header header header"
+    ". wrapper ."
+    "footer footer footer";
+}
+
+.main-header {
+  grid-area: header;
+}
+
+.main-nav {
+  grid-area: navbar;
+}
+
+.wrapper {
+  grid-area: wrapper;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.content-container{
+  flex-shrink: 1;
+  flex-grow: 0;
+}
+
+.aside {
+  flex-shrink: 1;
+  flex-grow: 0;
+}
+
+.footer {
+  grid-area: footer;
+}
+
+/** Modifiers */
+
+.page_header_disabled{
+  grid-template-rows: /*6rem*/ max-content auto max-content;
+}

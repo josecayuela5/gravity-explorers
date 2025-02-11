@@ -1,0 +1,453 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <!--*Meta etiquetas-->
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="Jose Cayuela" />
+    <meta
+      name="keywords"
+      content="calistenia, entrenamiento con peso corporal, Gravity Explorers, ejercicios sin gimnasio, rutina de calistenia, entrenamiento en casa, fuerza funcional, ejercicios de peso corporal, 
+      progresiones de calistenia, equilibrio corporal, resistencia física, entrenamiento al aire libre, deporte sin pesas, blog de entrenamiento, fuerza y control, gravity explorers blog"
+    />
+    <meta
+      name="description"
+      content="Gravity Explorers es un blog dedicado a la calistenia y el entrenamiento con el propio peso corporal. 
+      Encuentra rutinas, consejos y progresiones para mejorar tu fuerza, equilibrio y control sin necesidad de un gimnasio. ¡Domina tu cuerpo y desafía la gravedad!"
+    />
+    <meta name="robots" content="index, follow" />
+
+    <!--*Título página-->
+    <title>Gravity Explorers | Blog de Calistenia y Entrenamiento</title>
+
+    <!--*Importación estilos-->
+
+    <!--*Estilos globales-->
+    <link rel="stylesheet" href="./css/global/reset.css" type="text/css" />
+    <link rel="stylesheet" href="./css/global/layout.css" type="text/css" />
+    <link rel="stylesheet" href="./css/global/page.css" type="text/css" />
+    <link rel="stylesheet" href="./css/global/title.css" type="text/css" />
+    <link rel="stylesheet" href="./css/global/footer.css" type="text/css" />
+    <link rel="stylesheet" href="./css/global/main-nav.css" type="text/css" />
+    <link
+      rel="stylesheet"
+      href="./css/global/content-container.css"
+      type="text/css"
+    />
+    <link rel="stylesheet" href="./css/global/button.css" type="text/css" />
+    <link
+      rel="stylesheet"
+      href="./css/global/main-header.css"
+      type="text/css"
+    />
+
+    <!--*Estilos de bloques-->
+    <link rel="stylesheet" href="./css/post.css" type="text/css" />
+    <link rel="stylesheet" href="./css/link.css" type="text/css" />
+
+    <!--*Media queries-->
+    <link
+      rel="stylesheet"
+      href="./css/global/mediaqueries.css"
+      type="text/css"
+    />
+
+    <!--*Importación icono página-->
+    <link rel="icon" type="image/x-icon" href="./icons/gym.png" />
+
+    <!--*Importación fuentes-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fugaz+One&family=Roboto:ital,wght@0,100..900;1,100..900&family=Sriracha&display=swap"
+      rel="stylesheet"
+    />
+
+    <!--*Importación jQuery CDN-->
+    <script
+      src="https://code.jquery.com/jquery-3.7.1.min.js"
+      integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo="
+      crossorigin="anonymous"
+    ></script>
+
+    <!--* Importación de jQuery UI-->
+
+    <!--* jQuery UI CSS -->
+    <link rel="stylesheet" href="./assets/jquery-ui.css" />
+
+    <!--* jQuery UI JavaScript -->
+    <script
+      src="https://code.jquery.com/ui/1.14.1/jquery-ui.min.js"
+      integrity="sha256-AlTido85uXPlSyyaZNsjJXeCs07eSv3r43kyCVc8ChI="
+      crossorigin="anonymous"
+    ></script>
+
+    <!--*Importación de código JS: funcionalidades de la página-->
+    <script src="./js/dynamicroute.js" type="text/javascript"></script>
+    <script src="./js/likes.js" type="text/javascript"></script>
+    <script src="./js/carrousel.js" type="text/javascript"></script>
+    <script src="./js/backtop.js" type="text/javascript"></script>
+    <script src="./js/changetheme.js" type="text/javascript"></script>
+    <script src="./js/search.js" type="text/javascript"></script>
+  </head>
+
+  <body class="page" id="JS-page">
+    <!--*Navegación principal -->
+    <nav class="main-nav" id="JS-nav">
+      <div class="main-nav__search">
+        <input id="tags" class="main-nav__input" placeholder="Buscar..." />
+        <img src="./icons/search.svg" class="main-nav__search-icon" alt="" />
+      </div>
+
+      <ul class="main-nav__list">
+        <li class="main-nav__list-element">
+          <a
+            href="./index.html"
+            class="link main-nav__link main-nav__link_active"
+            >INICIO</a
+          >
+        </li>
+        <li class="main-nav__list-element">
+          <a href="./blog.html" class="link main-nav__link">BLOG</a>
+        </li>
+        <li class="main-nav__list-element">
+          <a href="./about.html" class="link main-nav__link">SOBRE MÍ</a>
+        </li>
+        <!--<li class="main-nav__list-element" id="JS-categories">
+          <a href="/html/categories.html" class="link main-nav__link"
+            >CATEGORÍAS</a
+          >
+          <ul class="main-nav__submenu" id="JS-submenu">
+            <li class="main-nav__list-element">
+              <a href="/html/exercices.html" class="link main-nav__link"
+                >EJERCICIOS</a
+              >
+            </li>
+            <li class="main-nav__list-element">
+              <a href="/html/routines.html" class="link main-nav__link"
+                >RUTINAS</a
+              >
+            </li>
+          </ul>
+        </li>
+      --></ul>
+
+      <div class="main-nav__button-container">
+        <img
+          src="./icons/moon.svg"
+          alt="botón cambio de tema de color"
+          class="main-nav__theme-button"
+          id="JS-theme-button"
+        />
+      </div>
+    </nav>
+
+    <!--*Cabecera de la página, con carrousel-->
+    <header class="main-header">
+      <!--*Texto-->
+      <div class="main-header__text">
+        <p>Blog sobre entrenamiento</p>
+        <h1 class="title title_font_one title_size_l title_color_enabled">
+          GRAVITY EXPLORERS
+        </h1>
+        <p>Domina tu cuerpo, desafía la gravedad</p>
+      </div>
+
+      <!--*Carrousel-->
+      <div class="main-header__carrousel">
+        <img
+          src="./img/carrousel/handstand.jpg"
+          alt=""
+          class="main-header__img main-header__img_active"
+        />
+        <img
+          src="./img/carrousel/hefesto.jpg"
+          alt=""
+          class="main-header__img"
+        />
+        <img
+          src="./img/carrousel/straddle.jpg"
+          alt=""
+          class="main-header__img"
+        />
+        <img
+          src="./img/carrousel/fullplanche.jpg"
+          alt=""
+          class="main-header__img"
+        />
+      </div>
+    </header>
+
+    <div class="wrapper">
+      <div class="content-container">
+        <!--*Contenido prinipal-->
+        <main>
+          <!--*Sección de posts-->
+          <section>
+            <!--! Post id:3 Cambiar id para cada post-->
+            <article class="post post_margintop_disabled" data-post-id="3">
+              <img src="./img/post/health_900.jpg"/ class="post__img"
+              alt="Esferas de la salud"/>
+              <div class="post__container">
+                <header class="post__header">
+                  <img
+                    src="./img/userpic.jpg"
+                    class="author__img post__author-img"
+                    alt=""
+                  />
+                  <p>Administrador</p>
+                  <time datetime="2025-02-09" class="post__date"
+                    >9 feb 2025</time
+                  >
+                </header>
+
+                <a href="./posts/post3.html" class="post__redirect">
+                  <div class="post__content">
+                    <h2 class="title title_size_m">Hábitos saludables</h2>
+                    <p class="post__desc title_size_s">
+                      Aprende cómo incorporar pequeños cambios en tu rutina
+                      diaria para lograr una vida más saludable y equilibrada.
+                    </p>
+                  </div>
+                </a>
+
+                <div class="post__interaction">
+                  <div class="post__likes">
+                    <p class="JS-like-counter"></p>
+                    <svg
+                      width="64px"
+                      height="64px"
+                      viewBox="0 0 24 24"
+                      xmlns="http://www.w3.org/2000/svg"
+                      class="post__icon JS-like-button"
+                    >
+                      <g id="SVGRepo_bgCarrier" stroke-width="0" />
+                      <g
+                        id="SVGRepo_tracerCarrier"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        stroke="#CCCCCC"
+                        stroke-width="0.192"
+                      />
+                      <g id="SVGRepo_iconCarrier">
+                        <path
+                          d="M15.7 4C18.87 4 21 6.98 21 9.76C21 15.39 12.16 20 12 20C11.84 20 3 15.39 3 9.76C3 6.98 5.13 4 8.3 4C10.12 4 11.31 4.91 12 5.71C12.69 4.91 13.88 4 15.7 4Z"
+                          stroke="#225ed6"
+                          stroke-width="2"
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                          cursor="pointer"
+                        />
+                      </g>
+                    </svg>
+                  </div>
+                </div>
+              </div>
+            </article>
+
+            <!--! Post id:2 Cambiar id para cada post-->
+            <article class="post post_margintop_disabled" data-post-id="2">
+              <img src="./img/post/pushup_900.jpg"/ class="post__img"
+              alt="Hombre haciendo flexiones">
+              <div class="post__container">
+                <header class="post__header">
+                  <img
+                    src="./img/userpic.jpg"
+                    class="author__img post__author-img"
+                    alt=""
+                  />
+                  <p>Administrador</p>
+                  <time datetime="2025-02-07" class="post__date"
+                    >7 feb 2025</time
+                  >
+                </header>
+
+                <a href="./posts/post2.html" class="post__redirect">
+                  <div class="post__content">
+                    <h2 class="title title_size_m">
+                      Calistenia para principiantes
+                    </h2>
+                    <p class="post__desc title_size_s">
+                      Descubre cómo iniciar tu camino hacia una mayor fuerza y
+                      salud con ejercicios básicos de calistenia.
+                    </p>
+                  </div>
+                </a>
+
+                <div class="post__interaction">
+                  <div class="post__likes">
+                    <p class="JS-like-counter"></p>
+                    <svg
+                      width="64px"
+                      height="64px"
+                      viewBox="0 0 24 24"
+                      xmlns="http://www.w3.org/2000/svg"
+                      class="post__icon JS-like-button"
+                    >
+                      <g id="SVGRepo_bgCarrier" stroke-width="0" />
+                      <g
+                        id="SVGRepo_tracerCarrier"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        stroke="#CCCCCC"
+                        stroke-width="0.192"
+                      />
+                      <g id="SVGRepo_iconCarrier">
+                        <path
+                          d="M15.7 4C18.87 4 21 6.98 21 9.76C21 15.39 12.16 20 12 20C11.84 20 3 15.39 3 9.76C3 6.98 5.13 4 8.3 4C10.12 4 11.31 4.91 12 5.71C12.69 4.91 13.88 4 15.7 4Z"
+                          stroke="#225ed6"
+                          stroke-width="2"
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                          cursor="pointer"
+                        />
+                      </g>
+                    </svg>
+                  </div>
+                </div>
+              </div>
+            </article>
+
+            <!--! Post id:1 Cambiar id para cada post-->
+            <article class="post post_margintop_disabled" data-post-id="1">
+              <img src="./img/post/run_900.jpg"/ class="post__img" alt="Silueta
+              de persona corriendo">
+              <div class="post__container">
+                <header class="post__header">
+                  <img
+                    src="./img/userpic.jpg"
+                    class="author__img post__author-img"
+                    alt=""
+                  />
+                  <p>Administrador</p>
+                  <time datetime="2025-02-05" class="post__date"
+                    >5 feb 2025</time
+                  >
+                </header>
+
+                <a href="./posts/post1.html" class="post__redirect">
+                  <div class="post__content">
+                    <h2 class="title title_size_m">
+                      Bienvenidos a Gravity Explorers
+                    </h2>
+                    <p class="post__desc title_size_s">
+                      Únete a nuestra comunidad de exploradores, donde
+                      compartimos pasión por el entrenamiento, el bienestar y la
+                      superación personal.
+                    </p>
+                  </div>
+                </a>
+
+                <div class="post__interaction">
+                  <div class="post__likes">
+                    <p class="JS-like-counter"></p>
+                    <svg
+                      width="64px"
+                      height="64px"
+                      viewBox="0 0 24 24"
+                      xmlns="http://www.w3.org/2000/svg"
+                      class="post__icon JS-like-button"
+                    >
+                      <g id="SVGRepo_bgCarrier" stroke-width="0" />
+                      <g
+                        id="SVGRepo_tracerCarrier"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        stroke="#CCCCCC"
+                        stroke-width="0.192"
+                      />
+                      <g id="SVGRepo_iconCarrier">
+                        <path
+                          d="M15.7 4C18.87 4 21 6.98 21 9.76C21 15.39 12.16 20 12 20C11.84 20 3 15.39 3 9.76C3 6.98 5.13 4 8.3 4C10.12 4 11.31 4.91 12 5.71C12.69 4.91 13.88 4 15.7 4Z"
+                          stroke="#225ed6"
+                          stroke-width="2"
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                          cursor="pointer"
+                        />
+                      </g>
+                    </svg>
+                  </div>
+                </div>
+              </div>
+            </article>
+          </section>
+        </main>
+
+        <button class="button content-container__button">
+          <a href="./blog.html" class="link">Ver todos</a>
+        </button>
+      </div>
+    </div>
+
+    <!--*Footer-->
+    <footer class="footer">
+      <div class="footer__wrapper">
+        <div class="footer__main-content">
+          <!--*Información del autor-->
+          <section class="footer__author-about">
+            <img
+              src="./img/userpic.jpg"
+              class="footer__author-img"
+              alt="Administrador del blog"
+            />
+            <h3 class="title">Sobre mí</h3>
+            <p>
+              Soy Jose Cayuela, un atleta apasionado por la calistenia desde
+              2017. Mi misión es compartir mi experiencia para ayudarte a llevar
+              una vida más activa y saludable.
+            </p>
+            <a href="./about.html" class="link link_decoration_enabled"
+              >Leer más</a
+            >
+          </section>
+
+          <!--*Formulario de suscripción al blog-->
+          <section class="footer__subscription">
+            <h3 class="title footer__section-title">Suscríbete al blog</h3>
+            <form class="footer__subscription-form">
+              <label for="usermail">Email *</label>
+              <input
+                type="email"
+                id="usermail"
+                name="usermail"
+                class="input footer__input"
+              />
+              <input
+                type="submit"
+                class="button footer__subscription-button"
+                id="send-email"
+                value="Unirse"
+              />
+            </form>
+          </section>
+        </div>
+
+        <!--*Información adicional-->
+        <div class="footer__additional">
+          <span class="footer__copy"
+            >&copy 2025 Gravity Explorers. All rights reserved.</span
+          >
+          <!--*Copyright-->
+          <img
+            src="./icons/up.svg"
+            class="footer__upbutton"
+            id="JS-upbutton"
+            alt="Botón para ir al prinicpio"
+          />
+          <!--*Botón para subir arriba-->
+
+          <!--*Redes sociales-->
+          <div class="footer__social">
+            <a href="https://www.instagram.com/"
+              ><img
+                src="./icons/instragram.svg"
+                class="footer__icon"
+                alt="Instagram"
+            /></a>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

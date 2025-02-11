@@ -1,0 +1,13 @@
+/** Block */
+
+.button {
+  border: none;
+  font-family: inherit;
+  display: block;
+  cursor: pointer;
+  font-size: inherit;
+}
+
+/** Elemments */
+
+/** Modifiers */

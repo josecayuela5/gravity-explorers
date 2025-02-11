@@ -1,0 +1,18 @@
+.page {
+  font-size: 1.6rem;
+  background-color: #f5f5f5;
+  font-family: "Roboto", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
+
+  color: #252525;
+}
+
+/** Modifiers */
+
+.page_darkmode{
+  background-color: #252525;
+  color: #f5f5f5;
+}

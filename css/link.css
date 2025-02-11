@@ -1,0 +1,16 @@
+/** Block */
+
+.link {
+  display: block;
+  color: inherit;
+  text-decoration: none;
+}
+
+/** Elements */
+
+
+/** Modifiers */
+
+.link_decoration_enabled{
+  text-decoration: underline;
+}

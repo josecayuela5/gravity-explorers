@@ -1,0 +1,400 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <!--*Meta etiquetas-->
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="Jose Cayuela" />
+
+    <!--! Cambiar para cada publicación-->
+    <meta
+      name="keywords"
+      content="calistenia para principiantes, ejercicios básicos, entrenamiento con peso corporal, rutina de calistenia, progresiones, 
+      fuerza funcional, control corporal, fitness sin pesas, Gravity Explorers"
+    />
+
+    <!--! Cambiar para cada publicación-->
+    <meta
+      name="description"
+      content="Inicia en la calistenia con esta guía para principiantes. Aprende ejercicios básicos, progresiones y consejos para desarrollar fuerza y control 
+      corporal sin necesidad de equipo."
+    />
+    <meta name="robots" content="index, follow" />
+
+    <!--*Título página-->
+    <!--! Cambiar para cada publicación-->
+    <title>Gravity Explorers | Calistenia para principiantes</title>
+
+    <!--*Importación estilos-->
+
+    <!--*Estilos globales-->
+    <link rel="stylesheet" href="../css/global/reset.css" type="text/css" />
+    <link rel="stylesheet" href="../css/global/layout.css" type="text/css" />
+    <link rel="stylesheet" href="../css/global/page.css" type="text/css" />
+    <link rel="stylesheet" href="../css/global/title.css" type="text/css" />
+    <link rel="stylesheet" href="../css/global/footer.css" type="text/css" />
+    <link rel="stylesheet" href="../css/global/main-nav.css" type="text/css" />
+    <link
+    rel="stylesheet"
+    href="../css/global/content-container.css"
+    type="text/css"
+    />
+    <link rel="stylesheet" href="../css/global/button.css" type="text/css" />
+    <link
+    rel="stylesheet"
+    href="../css/global/main-header.css"
+    type="text/css"
+    />
+    
+    <!--*Estilos de bloques-->
+    <link rel="stylesheet" href="../css/link.css" type="text/css" />
+    <link rel="stylesheet" href="../css/publication.css" type="text/css" />
+    <link rel="stylesheet" href="../css/post.css" type="text/css" />
+    
+    <!--*Media queries-->    
+    <link
+      rel="stylesheet"
+      href="../css/global/mediaqueries.css"
+      type="text/css"
+    />
+    <!--*Importación icono página-->
+    <link rel="icon" type="image/x-icon" href="../icons/gym.png" />
+    
+    <!--*Importación fuentes-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fugaz+One&family=Roboto:ital,wght@0,100..900;1,100..900&family=Sriracha&display=swap"
+      rel="stylesheet"
+    />
+
+    <!--*Importación jQuery CDN-->
+    <script
+      src="https://code.jquery.com/jquery-3.7.1.min.js"
+      integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo="
+      crossorigin="anonymous"
+    ></script>
+
+    <!--* Importación de jQuery UI-->
+
+    <!--* jQuery UI CSS -->
+    <link rel="stylesheet" href="../assets/jquery-ui.css" />
+
+    <!--* jQuery UI JavaScript -->
+    <script
+      src="https://code.jquery.com/ui/1.14.1/jquery-ui.min.js"
+      integrity="sha256-AlTido85uXPlSyyaZNsjJXeCs07eSv3r43kyCVc8ChI="
+      crossorigin="anonymous"
+    ></script>
+
+    <!--*Importación de código JS: funcionalidades de la página-->
+    <script src="../js/dynamicroute.js" type="text/javascript"></script>
+    <script src="../js/likes.js" type="text/javascript"></script>
+    <script src="../js/backtop.js" type="text/javascript"></script>
+    <script src="../js/changetheme.js" type="text/javascript"></script>
+    <script src="../js/search.js" type="text/javascript"></script>
+  </head>
+
+  <body class="page page_header_disabled" id="JS-page">
+    <!--*Navegación principal -->
+    <nav class="main-nav" id="JS-nav">
+      <div class="main-nav__search">
+        <input id="tags" class="main-nav__input" placeholder="Buscar..." />
+        <img src="../icons/search.svg" class="main-nav__search-icon" alt="" />
+      </div>
+
+      <ul class="main-nav__list">
+        <li class="main-nav__list-element">
+          <a
+            href="../index.html"
+            class="link main-nav__link main-nav__link_active"
+            >INICIO</a
+          >
+        </li>
+        <li class="main-nav__list-element">
+          <a href="../blog.html" class="link main-nav__link">BLOG</a>
+        </li>
+        <li class="main-nav__list-element">
+          <a href="../about.html" class="link main-nav__link">SOBRE MÍ</a>
+        </li>
+        <!--<li class="main-nav__list-element" id="JS-categories">
+          <a href="/html/categories.html" class="link main-nav__link"
+            >CATEGORÍAS</a
+          >
+          <ul class="main-nav__submenu" id="JS-submenu">
+            <li class="main-nav__list-element">
+              <a href="/html/exercices.html" class="link main-nav__link"
+                >EJERCICIOS</a
+              >
+            </li>
+            <li class="main-nav__list-element">
+              <a href="/html/routines.html" class="link main-nav__link"
+                >RUTINAS</a
+              >
+            </li>
+          </ul>
+        </li>
+      --></ul>
+
+      <div class="main-nav__button-container">
+        <img
+          src="../icons/moon.svg"
+          alt="Botón cambio de tema de color"
+          class="main-nav__theme-button"
+          id="JS-theme-button"
+        />
+      </div>
+    </nav>
+
+    <div class="wrapper">
+      <div class="content-container">
+        <!--*Contenido prinipal-->
+        <main>
+          <article class="publication" data-post-id="2">
+            <!--!Cambiar el post id para cada post-->
+            <header class="publication__header">
+              <img
+                src="../img/userpic.jpg"
+                class="author__img post__author-img"
+                alt=""
+              />
+              <b>·</b>
+              <p>Administrador</p>
+              <b>·</b>
+              <time datetime="2025-02-07" class="post__date">7 feb 2025</time>
+            </header>
+
+            <div class="publication__textheader">
+              <h2 class="title title_size_m">Calistenia para principiantes</h2>
+              <p class="post__desc title_size_s">
+                Descubre cómo iniciar tu camino hacia una mayor fuerza y salud
+                con ejercicios básicos de calistenia.
+              </p>
+            </div>
+
+            <img
+              src="../img/post/pushup_900.jpg"
+              class="publication__img"
+              alt="Hombre haciendo flexiones blanco y negro"
+              srcset="/img/post/pushup_450.jpg 450w,
+                      /img/post/pushup_900.jpg 900w,
+                      /img/post/pushup_1800.jpg 1800w,
+                    "
+              sizes="(max-width: 900px) 100%,
+                     (min-width: 900px) 780px,
+                     (min-width: 1200px) 870px
+                    "
+            />
+
+            <div class="publication__content">
+              <p>
+                La calistenia es una disciplina de entrenamiento donde el propio
+                peso corporal se convierte en la herramienta principal para
+                ganar fuerza, resistencia y control. Si eres principiante, la
+                clave está en aprender los movimientos fundamentales que te
+                darán una base sólida para progresar. Entre ellos, dos
+                ejercicios destacan como esenciales: las flexiones y las
+                dominadas.
+              </p>
+              <p>
+                Estos movimientos trabajan los grupos musculares más importantes
+                y te preparan para ejercicios más avanzados en el futuro. Aunque
+                parecen simples, ejecutarlos correctamente marca la diferencia
+                entre un entrenamiento efectivo y uno que puede llevarte a una
+                lesión o a estancarte.
+              </p>
+
+              <h3 class="title_size_s">El poder de las dominadas</h3>
+              <p>
+                Las dominadas son uno de los ejercicios más desafiantes para
+                quienes recién comienzan, pero también uno de los más completos.
+                Se centran en el trabajo de la espalda, los bíceps y los
+                antebrazos, fortaleciendo la musculatura necesaria para
+                movimientos más avanzados.
+              </p>
+              <p>
+                Para realizarlas correctamente, es importante concentrarse en la
+                técnica: el agarre debe ser firme, con las palmas mirando hacia
+                adelante y separadas al ancho de los hombros. Desde una posición
+                colgante, el objetivo es subir hasta que la barbilla pase por
+                encima de la barra, manteniendo siempre el control del
+                movimiento.
+              </p>
+              <p>
+                Muchos principiantes encuentran las dominadas difíciles al
+                inicio, pero existen formas de adaptarlas. Se pueden utilizar
+                bandas elásticas para reducir la carga, realizar dominadas
+                negativas (centrándose en la bajada lenta) o empezar con
+                dominadas australianas, en las que el cuerpo se mantiene
+                inclinado y los pies en el suelo.
+              </p>
+              <p>
+                Es fundamental evitar errores comunes como usar solo los brazos
+                en lugar de activar la espalda o impulsarse con las piernas para
+                hacer trampas. La paciencia y la constancia harán que, con el
+                tiempo, puedas dominar este ejercicio con facilidad.
+              </p>
+
+              <h3 class="title_size_s">
+                Flexiones: más que un simple ejercicio de pecho
+              </h3>
+              <p>
+                Las flexiones son otro pilar fundamental en la calistenia,
+                perfectas para desarrollar la fuerza del tren superior. A
+                diferencia de lo que muchos creen, no solo trabajan el pecho,
+                sino también los hombros, los tríceps e incluso el core, ya que
+                mantener una buena postura requiere estabilidad y control.
+              </p>
+              <p>
+                La clave de una buena flexión está en mantener el cuerpo
+                alineado, sin arquear la espalda ni dejar caer la cadera. Al
+                bajar, los codos deben mantenerse en un ángulo aproximado de 45°
+                con respecto al torso, permitiendo una activación eficiente de
+                los músculos sin sobrecargar los hombros.
+              </p>
+              <p>
+                Si al principio resulta complicado hacerlas en el suelo, hay
+                progresiones para facilitar el proceso. Se pueden hacer contra
+                la pared, en una superficie elevada o con apoyo en las rodillas.
+                También es útil practicar flexiones negativas, donde el énfasis
+                está en bajar lentamente para fortalecer los músculos
+                involucrados.
+              </p>
+              <p>
+                Uno de los errores más frecuentes es no bajar lo suficiente o
+                realizar el movimiento de manera incompleta. Para aprovechar al
+                máximo el ejercicio, lo ideal es llevar el pecho casi hasta el
+                suelo y luego empujar de manera explosiva hacia arriba.
+              </p>
+              <h3 class="title_size_s">
+                Construye una base sólida para progresar
+              </h3>
+              <p>
+                Dominar las flexiones y las dominadas te dará una base sólida en
+                la calistenia, permitiéndote avanzar hacia ejercicios más
+                complejos con mayor facilidad. Al principio, puede ser
+                frustrante no lograr muchas repeticiones, pero con práctica y
+                constancia, los progresos llegarán antes de lo que imaginas.
+              </p>
+              <p>
+                No hay atajos en la calistenia, pero sí hay estrategias
+                inteligentes para mejorar. Alternar las progresiones, enfocarse
+                en la técnica y respetar los tiempos de descanso y recuperación
+                hará que cada entrenamiento cuente.
+              </p>
+              <p>
+                <strong
+                  >💪 ¿Listo para empezar? Prueba estas progresiones y cuéntame
+                  en los comentarios cómo te va con la calistenia. ¡Recuerda que
+                  la clave es la paciencia y la disciplina!</strong
+                >
+              </p>
+            </div>
+
+            <div class="publication__interaction">
+              <div class="post__likes">
+                <p class="JS-like-counter"></p>
+                <svg
+                  width="64px"
+                  height="64px"
+                  viewBox="0 0 24 24"
+                  xmlns="http://www.w3.org/2000/svg"
+                  class="post__icon JS-like-button"
+                >
+                  <g id="SVGRepo_bgCarrier" stroke-width="0" />
+                  <g
+                    id="SVGRepo_tracerCarrier"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke="#CCCCCC"
+                    stroke-width="0.192"
+                  />
+                  <g id="SVGRepo_iconCarrier">
+                    <path
+                      d="M15.7 4C18.87 4 21 6.98 21 9.76C21 15.39 12.16 20 12 20C11.84 20 3 15.39 3 9.76C3 6.98 5.13 4 8.3 4C10.12 4 11.31 4.91 12 5.71C12.69 4.91 13.88 4 15.7 4Z"
+                      stroke="#225ed6"
+                      stroke-width="2"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      cursor="pointer"
+                    />
+                  </g>
+                </svg>
+              </div>
+            </div>
+          </article>
+        </main>
+      </div>
+    </div>
+
+    <!--*Footer-->
+    <footer class="footer">
+      <div class="footer__wrapper">
+        <div class="footer__main-content">
+          <!--*Información del autor-->
+          <section class="footer__author-about">
+            <img
+              src="../img/userpic.jpg"
+              class="footer__author-img"
+              alt="Adminsitrador del blog"
+            />
+            <h3 class="title">Sobre mí</h3>
+            <p>
+              Soy Jose Cayuela, un atleta apasionado por la calistenia desde
+              2017. Mi misión es compartir mi experiencia para ayudarte a llevar
+              una vida más activa y saludable.
+            </p>
+            <a href="../about.html" class="link link_decoration_enabled"
+              >Leer más</a
+            >
+          </section>
+
+          <!--*Formulario de suscripción al blog-->
+          <section class="footer__subscription">
+            <h3 class="title footer__section-title">Suscríbete al blog</h3>
+            <form class="footer__subscription-form">
+              <label for="usermail">Email *</label>
+              <input
+                type="email"
+                id="usermail"
+                name="usermail"
+                class="input footer__input"
+              />
+              <input
+                type="submit"
+                class="button footer__subscription-button"
+                id="send-email"
+                value="Unirse"
+              />
+            </form>
+          </section>
+        </div>
+
+        <!--*Información adicional-->
+        <div class="footer__additional">
+          <span class="footer__copy"
+            >&copy 2025 Gravity Explorers. All rights reserved.</span
+          >
+          <!--*Copyright-->
+          <img
+            src="../icons/up.svg"
+            class="footer__upbutton"
+            id="JS-upbutton"
+            alt="Botón para ir al prinicipio"
+          />
+          <!--*Botón para subir arriba-->
+
+          <!--*Redes sociales-->
+          <div class="footer__social">
+            <a href="https://www.instagram.com/"
+              ><img
+                src="../icons/instragram.svg"
+                class="footer__icon"
+                alt="Instagram"
+            /></a>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

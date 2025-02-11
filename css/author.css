@@ -1,0 +1,21 @@
+/** Bloque */
+
+.author {
+  display: flex;
+  gap: 2.5rem;
+  align-items: center;
+  margin-bottom: 5rem;
+}
+
+/** Elementos */
+
+.author__container {
+  line-height: 3rem;
+}
+
+.author__img {
+  /*width: 10rem;*/
+  border-radius: 100%;
+}
+
+/** Modificadores */

@@ -1,0 +1,44 @@
+<section>
+    <form class="comment-form">
+      <h2 class="title title_font_one">Publica un comentario</h2>
+      <div class="comments-form__div">
+        <label class="comments-form__label" for="username">Nombre</label>
+        <input
+          class="comments-form__input"
+          type="text"
+          id="username"
+          name="username"
+          required
+        />
+      </div>
+      <div class="comments-form__div">
+        <label class="comments-form__label" for="usermail">E-mail</label>
+        <input
+          class="comments-form__input"
+          type="email"
+          id="usermail"
+          name="usermail"
+          required
+        />
+      </div>
+      <div class="comments-form__div">
+        <label class="comments-form__label">Comentario</label>
+        <textarea
+          class="comments-form__textarea"
+          type="textarea"
+          name="usercomment"
+          required
+          placeholder="Escribe tu comentario..."
+          rows="10"
+        ></textarea>
+      </div>
+      <div>
+        <input
+          class="comments-form__send-button"
+          type="submit"
+          id="send-comment"
+          value="Publicar comentario"
+        />
+      </div>
+    </form>
+  </section>
