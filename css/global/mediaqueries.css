@@ -123,15 +123,13 @@
 }
 
 @media (max-width: 600px) {
-
   .publication__content {
     font-size: 2rem;
   }
-  .post__desc {
+  .publication__textheader {
     text-align: center;
     font-size: 2.2rem;
   }
-
   .publication__title {
     text-align: center;
   }
